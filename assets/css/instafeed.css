@@ -1,0 +1,160 @@
+/* INSTAGRAM FEED */
+.eapps-instagram-feed-title {
+    /* Hide Feed Title */
+    display: none !important;
+}
+
+.instagram-resizer {
+    overflow: hidden;
+    height: 77%;
+}
+
+@media only screen and (max-width: 1680px) {
+    .instagram-resizer {
+        height: 75%;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .instagram-resizer {
+        height: 72%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .instagram-resizer {
+        height: 45%;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .instagram-resizer {
+        height: 43%;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .instagram-resizer {
+        height: 41%;
+    }
+}
+
+@media only screen and (max-width: 868px) {
+    .instagram-resizer {
+        height: 36%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .instagram-resizer {
+        height: 30%;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .instagram-resizer {
+        height: 29%;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .instagram-resizer {
+        height: 28%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .instagram-resizer {
+        height: 27%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .instagram-resizer {
+        height: 27%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .instagram-resizer {
+        height: 36%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .instagram-resizer {
+        height: 73%;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .instagram-resizer {
+        height: 71%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .instagram-resizer {
+        height: 69%;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    .instagram-resizer {
+        height: 67%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .instagram-resizer {
+        height: 65%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .instagram-resizer {
+        height: 63%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .instagram-resizer {
+        height: 61%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .instagram-resizer {
+        height: 59%;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .instagram-resizer {
+        height: 57%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .instagram-resizer {
+        height: 66%;
+    }
+}
+
+@media only screen and (max-width: 358px) {
+    .instagram-resizer {
+        height: 64%;
+    }
+}
+
+@media only screen and (max-width: 332px) {
+    .instagram-resizer {
+        height: 62%;
+    }
+}
+
+@media only screen and (max-width: 307px) {
+    .instagram-resizer {
+        height: 60%;
+    }
+}
