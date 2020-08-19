@@ -110,7 +110,7 @@
 								<header>
 									<h3>Two Dollar <br>Thursdays</h3>
 								</header>
-								<p>Beers for $2.00. Can this be real?</p>
+								<p>Beers for only $2.00! Can this be real?</p>
 							</article>
 							<article>
 								<div class="image featured"><img draggable="false" src="assets/images/days/friday.jpg" alt="" /></div>
