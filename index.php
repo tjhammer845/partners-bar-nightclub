@@ -183,7 +183,7 @@
 							<header>
 								<h2>Book Your Next Event at Partners!</h2>
 							</header>
-							<footer
+							<footer>
 								<section class="container">
 									<form id="contactUs_form" class="mail-form" action="mail/mail.php" method="post">
 										<div class="row">
