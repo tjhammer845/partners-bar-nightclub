@@ -172,7 +172,7 @@
 								<div class="copyright">
 									<ul class="menu">
 										<li><img draggable="false" src="assets/images/watermark.png" /> &copy; <script type="text/JavaScript">
-										document.write(new Date().getFullYear());</script>. Partners Bar &amp; Nightclub. All rights reserved. <br>
+										document.write(new Date().getFullYear());</script>. Partners Bar &amp; Nightclub. All rights reserved. <br> Created by the Caffeine Team
 									</ul>
 								</div>
 							</div>
