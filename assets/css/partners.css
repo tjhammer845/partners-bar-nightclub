@@ -232,6 +232,9 @@ h3 {
 	border-radius: 50px;
 	width: 100%;
 }
+.wrapper article footer section form {
+	padding: 0 36px;
+}
 .wrapper article footer section form .fields .field label {
 	text-align: left;
 	margin-top: 1em;
