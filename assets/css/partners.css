@@ -392,6 +392,9 @@ h3 {
   #page-wrapper #header .inner header img.logo-img {
     max-width: 300px;
   }
+  .wrapper article footer section form {
+    padding: 0 3em;
+  }
   .wrapper article footer section form .fields ul.actions li input {
     margin-left: auto;
     margin-right: auto;
