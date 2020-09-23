@@ -24,7 +24,7 @@ function smtpmailer($to, $from, $name, $subject, $body)
 
         $mail->Username = 'admin@partnersnewhaven.com';
 
-        $mail->Password = 'Ginger1975';   
+        $mail->Password = 'Password';   
 
    
 
