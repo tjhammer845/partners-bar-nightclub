@@ -22,7 +22,7 @@ function smtpmailer($to, $from, $name, $subject, $body)
 
         $mail->Port = 465;  
 
-        $mail->Username = 'admin@partnersnewhaven.com';
+        $mail->Username = 'admin@domain.com';
 
         $mail->Password = 'Password';   
 
