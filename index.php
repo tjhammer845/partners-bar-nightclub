@@ -46,7 +46,7 @@
 								<p>Open <span>7</span> Days a Week!</p>
 							</header>
 							<footer>
-								<a href="#main" class="book-event-btn button rainbow scrolly">Book an Event Here</a>
+								<a href="#main" class="book-event-btn button rainbow scrolly">Book an Event</a>
 							</footer>
 						</div>
 						<!-- Nav -->
