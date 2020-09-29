@@ -89,18 +89,18 @@
 													<input type="text" id="req-name" name="name" class="required" minlength="2" value="" required/>
 												</div>
 												<div class="field">
-													<label for="req-email">Email:</label>
-													<input type="text" name="email" id="req-email" class="required email" minlength="2" value="" required />
+													<label for="email">Email:</label>
+													<input type="text" name="email" id="email" class="required email" minlength="2" value="" required />
 												</div>
 											</div>
 											<div class="fields col-6 col-12-mobile">
 												<div class="field">
-													<label for="contact_subject">Subject:</label>
-													<input type="text" class="required" name="subject" id="contact_subject" minlength="2" value="" required>
+													<label for="subject">Subject:</label>
+													<input type="text" class="required" name="subject" id="subject" minlength="2" value="" required>
 												</div>
 												<div class="field">
-													<label for="newText">Message:</label>
-													<textarea cols="40" rows="8" name="newText" class="required" minlength="2"></textarea>
+													<label for="message">Message:</label>
+													<textarea cols="40" rows="8" id="message" name="body" class="required" minlength="2"></textarea>
 												</div>
 												<ul class="actions">
 													<li><input class="rainbow" type="submit" value="Send Now!" />

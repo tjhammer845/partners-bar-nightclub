@@ -7,85 +7,43 @@ require "PHPMailer/PHPMailerAutoload.php";
 function smtpmailer($to, $from, $name, $subject, $body)
 
     {
-
         $mail = new PHPMailer();
-
         $mail->IsSMTP();
-
         $mail->SMTPAuth = true; 
-
- 
-
         $mail->SMTPSecure = 'ssl'; 
-
         $mail->Host = 'mail.partnersnewhaven.com';
-
         $mail->Port = 465;  
-
         $mail->Username = 'admin@partnersnewhaven.com';
-
         $mail->Password = 'Ginger1975';   
-
-   
-
    //   $path = 'reseller.pdf';
-
    //   $mail->AddAttachment($path);
-
-   
-
         $mail->IsHTML(true);
-
         $mail->To="admin@partnersnewhaven.com";
-
         $mail->FromName=$name;
-
         $mail->Sender=$from;
-
         $mail->AddReplyTo($from, $name);
-
         $mail->Subject = $subject;
-
         $mail->Body = $body;
-
         $mail->AddAddress($to);
-
         if(!$mail->Send())
-
         {
-
-            $error ="Please try Later, Error Occured while Processing...";
-
+            $error ="Please try again later, an error occured while processing your message...";
             return $error; 
-
         }
-
         else 
-
         {
-
             $error = "Your email has been sent. Partners Bar &amp; Nightclub will get back to you shortly!";  
-
             return $error;
-
         }
-
     }
 
-        
     $to =  'admin@partnersnewhaven.com';
-    $from =  $_POST['mail'];
+    $from =  $_POST['email'];
     $name =  $_POST['name'];
     $subj =  $_POST['subject'];
     $body =  $_POST['body'];
-
 	$txt = "You have received an e-mail from ".$name.".\n\n".$body;
-
-
     $error=smtpmailer($to, $from, $name ,$subj, $txt, $body);
-
-    
-
 ?>
 
 
@@ -127,7 +85,7 @@ function smtpmailer($to, $from, $name, $subject, $body)
 						<!-- Inner -->
 						<div class="inner">
 							<header>
-								<h1><img class="logo-img" draggable="false" src="../images/logo-solo.png" style="max-width: 250px"/></h1>
+								<h1><img class="logo-img" draggable="false" src="images/logo-solo.png" style="max-width: 250px"/></h1>
 							</header>
 						</div>
 					</div>
@@ -140,7 +98,6 @@ function smtpmailer($to, $from, $name, $subject, $body)
 						</header>
 					</section>
 				</div>
-
-
+        </div>
     </body>
 </html>
