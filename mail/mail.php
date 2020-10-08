@@ -1,11 +1,7 @@
 <?php
-
 require "PHPMailer/PHPMailerAutoload.php";
 
-
-
 function smtpmailer($to, $from, $name, $subject, $body)
-
     {
         $mail = new PHPMailer();
         $mail->IsSMTP();
@@ -15,10 +11,8 @@ function smtpmailer($to, $from, $name, $subject, $body)
         $mail->Port = 465;  
         $mail->Username = 'admin@partnersnewhaven.com';
         $mail->Password = 'Ginger1975';   
-   //   $path = 'reseller.pdf';
-   //   $mail->AddAttachment($path);
         $mail->IsHTML(true);
-        $mail->To="admin@partnersnewhaven.com";
+        $mail->To="tjhammer845@gmail.com";
         $mail->FromName=$name;
         $mail->Sender=$from;
         $mail->AddReplyTo($from, $name);
@@ -32,7 +26,7 @@ function smtpmailer($to, $from, $name, $subject, $body)
         }
         else 
         {
-            $error = "Your email has been sent. Partners Bar &amp; Nightclub will get back to you shortly!";  
+            $error = "Your email has been sent. Partners Bar &amp; Nightclub will get back to you shortly!";
             return $error;
         }
     }
@@ -50,7 +44,7 @@ function smtpmailer($to, $from, $name, $subject, $body)
 
 <html lang="en">
     <head>
-		<title>Email Us | Partners Bar and Nightclub</title>
+		<title>Contact Us | Partners Bar and Nightclub</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 		
@@ -78,7 +72,7 @@ function smtpmailer($to, $from, $name, $subject, $body)
 				<li><span>Image 15</span><div></div></li>
 				<li><span>Image 16</span><div></div></li>
 				<li><span>Image 17</span><div></div></li>
-			</ul
+            </ul>
 			<div id="page-wrapper">
 				<!-- Header -->
 					<div id="header" style="padding: 0; min-height: 50%;">
@@ -88,7 +82,8 @@ function smtpmailer($to, $from, $name, $subject, $body)
 								<h1><img class="logo-img" draggable="false" src="images/logo-solo.png" style="max-width: 250px"/></h1>
 							</header>
 						</div>
-					</div>
+                    </div>
+                    
 					<!-- Banner -->
 					<section id="banner">
 						<header>
@@ -97,7 +92,7 @@ function smtpmailer($to, $from, $name, $subject, $body)
 							<a class="button rainbow" title="Return to our Homepage" href="../index.php">Return to our Homepage</a>
 						</header>
 					</section>
-				</div>
+                </div>
         </div>
     </body>
 </html>
