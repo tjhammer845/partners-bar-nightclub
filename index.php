@@ -43,10 +43,9 @@
 						<div class="inner">
 							<header>
 								<h1><img class="logo-img" draggable="false" src="assets/images/logo.png" /></h1>
-								<p>Open <span>7</span> Days a Week!</p>
 							</header>
 							<footer>
-								<a href="#main" class="book-event-btn button rainbow scrolly">Book an Event</a>
+								<a href="#main" class="book-event-btn button rainbow scrolly">Book an Event Here</a>
 							</footer>
 						</div>
 						<!-- Nav -->
@@ -166,14 +165,14 @@
 								<p class="post_time">Posted on <?php the_time('l jS F, Y') ?></p>
 								<?php the_excerpt(); ?>
 								</article>
-								<? }
+								<? } 
 								} else { 
 								echo '<p>There are no posts available</p>';
 								}
 								wp_reset_postdata();
 								?>
 							</div>
-						</section>
+						</section> 
 					</div>
 					<hr class="rainbow" style="margin: -2px 0 0; position: initial;">
 
@@ -203,8 +202,8 @@
 													<input type="text" class="required" name="subject" id="contact_subject" minlength="2" value="" required>
 												</div>
 												<div class="field">
-													<label for="newText">Message:</label>
-													<textarea cols="40" rows="8" name="newText" class="required" minlength="2"></textarea>
+													<label for="body">Message:</label>
+													<textarea cols="40" rows="8" name="body" class="required" minlength="2"></textarea>
 												</div>
 												<ul class="actions">
 													<li><input class="rainbow" type="submit" value="Book now!" />
