@@ -167,7 +167,7 @@
 								<?php the_excerpt(); ?>
 								</article>
 								<? }
-								} else {
+								} else { 
 								echo '<p>There are no posts available</p>';
 								}
 								wp_reset_postdata();
