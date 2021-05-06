@@ -42,8 +42,7 @@
 						<!-- Inner -->
 						<div class="inner">
 							<header>
-								<h1><img class="logo-img" draggable="false" src="assets/images/logo.png" /></h1>
-								<p>Open <span>7</span> Days a Week!</p>
+                                <a href="/" title="Return to Partners Homepage"><h1><img class="logo-img" draggable="false" src="../assets/images/logo.png"/></h1></a>
 							</header>
 							<footer>
 								<a href="#main" class="book-event-btn button rainbow scrolly">Contact Us Here</a>

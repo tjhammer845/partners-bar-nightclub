@@ -199,7 +199,7 @@ h3 {
 #header .inner .book-event-btn {
   padding-left: 1.5em;
   padding-right: 1.5em;
-  max-width: 240px;
+  max-width: 270px;
   margin: 0 auto;
 }
 
@@ -335,7 +335,6 @@ h3 {
 
 /* FEATURED EVENTS FEED */
 #features article img {
-  max-height: 180px;
   display: block;
   margin-bottom: 20px;
   width: 100%;
@@ -395,9 +394,9 @@ h3 {
   .wrapper article footer section form {
     padding: 0 3em;
   }
-   .wrapper article footer section form .fields {
-	   padding-top: 0;
-   }
+  .wrapper article footer section form .fields {
+    padding-top: 0;
+  }
   .wrapper article footer section form .fields ul.actions li input {
     margin-left: auto;
     margin-right: auto;
