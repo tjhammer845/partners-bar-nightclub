@@ -46,7 +46,7 @@ function smtpmailer($to, $from, $name, $subject, $body)
     
 ?>
 
-<html lang="en">    <head>		<title>Email Us | Partners Bar and Nightclub</title>
+<html lang="en">    <head>		<title>Thank You For Your Email! | Partners Bar and Nightclub</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 		

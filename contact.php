@@ -145,13 +145,7 @@
 									<header>
 										<h2 class="icon fa fa-camera circled"><span class="label">Instagram</span></h2>
 									</header>
-									<div class="instagram-resizer">
-										<div class="row gtr-25">
-											<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-											<div class="elfsight-app-fa4c5bc3-ffc8-405a-b26b-d1ad94b33f52"></div>
-										</div>
-									</div>
-								</section>
+<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/b191f7ca3df05a4d8466878b9e36fd03.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>								</section>
 							</div>
 							<hr />
 							<div class="row">
