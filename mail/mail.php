@@ -39,7 +39,7 @@ function smtpmailer($to, $from, $name, $subject, $body)
     $subj =  $_POST['subject'];
     $body =  $_POST['body'];
     $txt.= "Content-type:text/html; charset=UTF-8" . "\r\n";
-	$txt = "You have received an e-mail from ".$name." - ".$email.":\r\n".$body;
+	$txt = "DO NOT RESPOND - AUTOMATED EMAIL. You have received an e-mail from ".$name." - ".$email.":\r\n".$body;
 
 
     $error=smtpmailer($to, $from, $name ,$subj, $txt, $body);
